@@ -3,15 +3,15 @@
 
 <mark>Step 1</mark>
 
-*Create a Droplet:
+* Create a Droplet:
 
-  -Go to DigitalOcean and create a new Ubuntu droplet.
+  - Go to DigitalOcean and create a new Ubuntu droplet.
   
-  +Choose a basic plan (e.g., $5/month).
+  + Choose a basic plan (e.g., $5/month).
   
-  *Enable IPv6 (optional but useful).
+  * Enable IPv6 (optional but useful).
   
-  *Add SSH keys for secure access.
+  * Add SSH keys for secure access.
 
 _Connect to the Droplet:_
 
