@@ -1,4 +1,4 @@
-###Mikrotik Remote Access
+### Mikrotik Remote Access
 1. Set Up a DigitalOcean Droplet (Ubuntu Server)
 Create a Droplet:
 
@@ -12,5 +12,6 @@ Add SSH keys for secure access.
 
 Connect to the Droplet:
 
-bash
+```bash
 ssh root@your_droplet_ip
+```
