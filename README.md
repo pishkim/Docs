@@ -173,7 +173,7 @@ Dynamic DNS: If the MikroTik has a changing IP, use a DDNS script.
 
 This setup allows secure remote access to your MikroTik via a DigitalOcean VPN gateway. 🚀
 
-######Multiple mikrotiks
+###### Multiple mikrotiks
 Step-by-Step Guide
 1. Assign Static IPs to Each MikroTik in OpenVPN
 Modify /etc/openvpn/server.conf to assign fixed IPs:
@@ -241,9 +241,13 @@ bash
 ssh -L 10001:10.8.0.6:8291 root@your_droplet_ip
 Now, access WinBox via localhost:10001.
 
+
 Summary
 ✅ Each MikroTik gets a unique VPN IP.
+
 ✅ Different ports on the droplet map to different MikroTiks.
+
 ✅ Secure access without exposing MikroTiks directly to the internet.
+
 
 This method scales easily—just add more iptables rules for additional devices! 🚀
