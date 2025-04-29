@@ -4,6 +4,7 @@
 <mark>Step 1</mark>
 
 *Create a Droplet:
+
   -Go to DigitalOcean and create a new Ubuntu droplet.
   
   +Choose a basic plan (e.g., $5/month).
