@@ -7,7 +7,7 @@
 
   - Go to DigitalOcean and create a new Ubuntu droplet.
   
-  + Choose a basic plan (e.g., $5/month).
+  * Choose a basic plan (e.g., $5/month).
   
   * Enable IPv6 (optional but useful).
   
